@@ -9,31 +9,32 @@
 <body>
   <input id="result" type="text" size ="20" style = "width:408px"/>
   <div>
-    <input type="button" value="7" onclick="edit(this)">
-    <input type="button" value="8" onclick="edit(this)">
-    <input type="button" value="9" onclick="edit(this)">
-    <input type="button" value="+" onclick="edit(this)">
+    <input type="button" value="7" onclick="number(this)">
+    <input type="button" value="8" onclick="number(this)">
+    <input type="button" value="9" onclick="number(this)">
+    <input type="button" value="+" onclick="edit(this)" >
   </div>
+  
   <div>
-    <input type="button" value="4" onclick="edit(this)">
-    <input type="button" value="5" onclick="edit(this)">
-    <input type="button" value="6" onclick="edit(this)">
+    <input type="button" value="4" onclick="number(this)">
+    <input type="button" value="5" onclick="number(this)">
+    <input type="button" value="6" onclick="number(this)">
     <input type="button" value="-" onclick="edit(this)">
   </div>
   <div>
-    <input type="button" value="1" onclick="edit(this)">
-    <input type="button" value="2" onclick="edit(this)">
-    <input type="button" value="3" onclick="edit(this)">
+    <input type="button" value="1" onclick="number(this)">
+    <input type="button" value="2" onclick="number(this)">
+    <input type="button" value="3" onclick="number(this)">
     <input type="button" value="*" onclick="edit(this)">
   </div>
   <div>
-    <input type="button" value="0" onclick="edit(this)">
-    <input type="button" value="00" onclick="edit(this)">
-    <input type="button" value="." onclick="edit(this)">
+    <input type="button" value="0" onclick="number(this)">
+    <input type="button" value="00" onclick="number(this)">
+    <input type="button" value="." onclick="number(this)">
     <input type="button" value="/" onclick="edit(this)">
   </div>
   <div>
-    <input class="button" type="button" id="reset" value="AC" onclick="reset()">
+    <input class="button" type="button" value="AC" onclick="reset()">
     <input class="button" type="button" value="=" onclick="calc()">
   </div>
   <script type="text/javascript" src="calc.js"></script>
